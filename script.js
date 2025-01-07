@@ -4,13 +4,15 @@ function firstWord(s) {
 	{
 		console.log(s);
 	}
+	s=s.trimStart()
 	let sarr=[];
 	sarr=s.split(' ');
 	let ouput=sarr[0];
 	//console.log(ouput);
 	return ouput;
+
 	
-	
+
 }
 
 // Do not change the code below
